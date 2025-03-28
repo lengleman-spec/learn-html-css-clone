@@ -1,32 +1,44 @@
+/* i'm using this lesson to practice the text and font-related properties */
 h1 {
-    color: rgb(78, 144, 175);
+  color: rgb(78, 144, 175);
+  /* i added: */
+  text-align: center;
+  border: 2px solid rgb(78, 144, 175);
 }
 
 h2 {
-    color: red;
+  color: red;
+  /* i added: */
+  font-style: oblique;
 }
 
 h3 {
-    color: rgb(106, 106, 243);
-    font-size: 30px;
+  color: rgb(106, 106, 243);
+  font-size: 30px;
+  /* i added: */
+  text-transform: capitalize;
 }
 
 h4 {
-    color: rgb(230, 137, 152);
+  color: rgb(230, 137, 152);
+  /* i added */
+  letter-spacing: 4px;
 }
 
 h5 {
-    color: rgb(180, 180, 235);
-    font-size: 2em;
+  color: rgb(180, 180, 235);
+  font-size: 2em;
+  /* i added */
+  word-spacing: 20px;
 }
 
 h6 {
-    color: rgb(255, 255, 93);
-    font-size: 3rem;
+  color: rgb(255, 255, 93);
+  font-size: 3rem;
 }
 
 /* You dont need to know how to style footer right now :) */
 footer p a {
-    color: rgb(192, 192, 250);
-    font-weight: 10px;
+  color: rgb(192, 192, 250);
+  font-weight: 10px;
 }
