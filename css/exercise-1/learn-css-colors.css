@@ -35,6 +35,8 @@ h5 {
 h6 {
   color: rgb(255, 255, 93);
   font-size: 3rem;
+  /* i added */
+  text-decoration: line-through;
 }
 
 /* You dont need to know how to style footer right now :) */
